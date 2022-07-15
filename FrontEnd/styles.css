@@ -1,0 +1,55 @@
+/******** Normalize CSS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: white;
+  background-size: contain;
+  
+}
+
+h1 {
+  margin-bottom: -4rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 5rem auto;
+}
+
+.restaurant__ratings {
+  margin: 7rem 0;
+  color: rgb(22, 22, 22);
+  word-break: break-all;
+  text-align: center;
+  font-size: large;
+}
+
+
+
+
+.restaurant__ratings > img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.restaurant__ratings > div {
+  padding: 0 1rem;
+}
+
+
+footer {
+  text-align: center;
+}
